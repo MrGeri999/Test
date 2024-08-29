@@ -8,7 +8,7 @@ public class avgDZ {
     }
     public void avg() {
         int a = 1;
-        int b = 2;
+        int b = 3;
         double c = (double) (a + b) /2;
         int v = (a + b) /2;
         if (c / v == 1){
