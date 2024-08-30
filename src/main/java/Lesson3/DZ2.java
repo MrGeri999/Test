@@ -2,7 +2,11 @@ package Lesson3;
 
 import java.util.*;
 
-public class DZ2 {
+public class DZ2 { // 4 лекция в презетациях 55 слайд
+//    Написать метод, который на вход принимает строку произвольной длины и произвольного содержания.
+//    Найти сколько раз встречается каждый символ заданной строки.
+
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         chisla(scanner.nextLine());

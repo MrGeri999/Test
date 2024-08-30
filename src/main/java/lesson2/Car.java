@@ -2,7 +2,8 @@ package lesson2;
 
 import com.sun.org.apache.xml.internal.utils.XMLStringFactory;
 
-public class Car {
+public class Car { // 2 Лекция, 23 слайд - 24. Создать класс Person, который содержит...
+
     private String model;
     private String color = "yellow";
     private int speed;

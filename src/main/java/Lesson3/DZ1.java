@@ -2,7 +2,11 @@ package Lesson3;
 
 import java.util.*;
 
-public class DZ1 {
+public class DZ1 { //4 лекция в презетациях 54 слайд
+//    Создать метод, который находит первый не повторяющийся
+//    (находящийся в единственном экземпляре) элемент в коллекции List.
+
+
 
     public static void zadanie(List<Character> a) {
         Map<Character, Integer> mapchisla = new LinkedHashMap<>();
@@ -30,7 +34,7 @@ public class DZ1 {
         else {
             System.out.println("Уникальных не найдено");
         }
-        }
+    }
 
     public static void main(String[] args) {
         List<Character> inputList = new ArrayList<>(Arrays.asList('a','a','b','c'));

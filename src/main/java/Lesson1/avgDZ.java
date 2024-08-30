@@ -1,6 +1,8 @@
 package Lesson1;
 
-public class avgDZ {
+public class avgDZ { // 2 Лекция. Создать метод, который определяет, является ли среднее  арифметическое, поданных ему на вход чисел целым числом.
+    //Метод должен возвращать true или false.
+
     public static void main(String[] args) {
         avgDZ assets = new avgDZ();
          assets.avg();
